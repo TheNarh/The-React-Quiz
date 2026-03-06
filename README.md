@@ -8,7 +8,7 @@ A timed, interactive quiz application that tests **real React knowledge** — bu
 
 ##  Live Demo
 
-[https://ludwig-react-quiz.vercel.app/](#) 
+[https://ludwig-react-quiz.vercel.app/]
 
 ---
 
