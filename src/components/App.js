@@ -10,6 +10,7 @@ import Progress from "./Progress";
 import FinishScreen from "./FinishScreen";
 import Footer from "./Footer";
 import Timer from "./Timer";
+import { questionsData } from "../data/questions";
 
 const SECS_PER_QUESTION = 30;
 
@@ -99,10 +100,11 @@ export default function App() {
   );
 
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
-      .then((res) => res.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
-      .catch((err) => dispatch({ type: "dataFailed" }));
+    try {
+      dispatch({ type: "dataReceived", payload: questionsData });
+    } catch (err) {
+      dispatch({ type: "dataFailed" });
+    }
   }, []);
 
   return (
