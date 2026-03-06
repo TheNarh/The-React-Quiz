@@ -1,8 +1,8 @@
 # The React Quiz App
 
-A timed, interactive quiz application that tests **real React knowledge** — built entirely with React using production-level patterns including a full state machine architecture, countdown timer, live scoring engine and highscore tracking.
+A timed, interactive quiz application that tests **real React knowledge** ,built entirely with React using production-level patterns including a full state machine architecture, countdown timer, live scoring engine and highscore tracking.
 
-> This app doesn't just demonstrate React — it quizzes you on it. Every question covers a core React concept: hooks, state, props, effects, rendering behaviour, and more.
+> This app doesn't just demonstrate React, it quizzes you on it. Every question covers a core React concept: hooks, state, props, effects, rendering behaviour, and more.
 
 ---
 
